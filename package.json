@@ -10,12 +10,14 @@
   },
   "keywords": [
     "Log",
-    "Rasa"
+    "Rasa",
+    "MongoDb"
   ],
   "author": "Subroto Saha",
   "license": "MIT",
   "dependencies": {
     "mongodb": "^5.1.0",
-    "rasajs": "^0.0.3"
+    "rasajs": "^0.0.3",
+    "xlsx": "^0.18.5"
   }
 }
