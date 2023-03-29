@@ -51,5 +51,6 @@ console.log(data)
 ```
 ## Export json in excel file
 ```javascript
-log.Export(data);
+// export data with path
+log.Export(data,'Static');
 ```
