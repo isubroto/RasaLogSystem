@@ -21,7 +21,7 @@ import log from 'rasalog';
 ### Initialize
 ```javascript
 // rasa chatbot url
-log.BOT.Url.Url('localhost:5005');
+log.BOT.Url('localhost:5005');
 
 // mongodb server url
 log.DB.Url("mongodb://root:password@localhost:27017");
