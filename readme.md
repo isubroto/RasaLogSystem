@@ -32,6 +32,11 @@ log.CreateLog("hi",replay=>{
     console.log(replay);
 });
 ```
+
+### Output 
+```json
+{ "message": "log created successfully" }
+```
 ## Get Log report
 ```javascript
 let data= await log.GetLog();
@@ -51,6 +56,6 @@ console.log(data)
 ```
 ## Export json in excel file
 ```javascript
-// export data with path
+// export data with path and returns file name with full path
 log.Export(data,'Static');
 ```
