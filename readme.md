@@ -24,12 +24,12 @@ import log from 'rasalog';
 log.BOT.Url('localhost:5005');
 
 // mongodb server url
-log.DB.Url("mongodb://root:password@localhost:27017");
+log.DB.Url("mongodb://localhost:27017");
 ```
 ## Create a Log
 ```javascript
-log.create("hi",res=>{
-  log.Insert(res);
+log.CreateLog("hi",replay=>{
+    console.log(replay);
 });
 ```
 ## Get Log report
@@ -40,13 +40,13 @@ console.log(data)
 ### the data look like 
 ```json
 {
-    "_id": new ObjectId("64117c30fb8c369001f153df"),
-    "text": 'hi',
-    "reply": 'Hey! How are you?',
-    "intentName": 'greet',
-    "intentConfidence": '0.9996561408042908',
-    "intentId": '473725467752341200',
-    "time": '3-15-2023_14-05-04'
+    "_id": "new ObjectId('64117c30fb8c369001f153df')",
+    "text": "hi",
+    "reply": "Hey! How are you?",
+    "intentName": "greet",
+    "intentConfidence": "0.9996561408042908",
+    "intentId": "473725467752341200",
+    "time": "3-15-2023_14-05-04"
   }
 ```
 ## Export json in excel file
