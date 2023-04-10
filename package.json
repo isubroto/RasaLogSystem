@@ -1,6 +1,6 @@
 {
   "name": "rasalog",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A Log Of User And Bot Communication",
   "main": "index.js",
   "type": "module",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "mongodb": "^5.1.0",
-    "rasajs": "^0.0.3",
+    "rasajs": "^0.0.4",
     "xlsx": "^0.18.5"
   }
 }
